@@ -1,0 +1,76 @@
+.navbar {
+        font-family: 'Cousine', serif;
+        font-size: 20px;
+      }
+
+.navbar {
+ background: #87CEEB;
+}
+
+/*.navbar {
+ background: #FFFFFF;
+}*/
+
+body {
+        font-family: 'Cousine', serif;
+        font-size: 20px;
+      }
+
+.vertical-center {
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.big-top-buffer { 
+	margin-top:40px; 
+}
+
+.small-top-buffer { 
+	margin-top:20px; 
+}
+
+.big-bottom-buffer { 
+	margin-bottom:40px; 
+}
+
+.small-bottom-buffer { 
+	margin-bottom:20px; 
+}
