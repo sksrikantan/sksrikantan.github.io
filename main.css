@@ -71,6 +71,11 @@ body {
 	margin-bottom:40px; 
 }
 
+.biggest-top-buffer {
+
+  margin-top:100px; 
+}
+
 .small-bottom-buffer { 
 	margin-bottom:20px; 
 }
