@@ -4,19 +4,40 @@
       }*/
 
 .navbar {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 20px;
-      }
-
-.navbar {
- background: #87CEEB;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  background: #87CEEB;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 50px;
+  height: 9%;
 }
 
+.line {
+  width: 75%;
+  size: 5px;
+/*  margin-top: 0px;
+*/
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+  /*change font*/
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-color: #F8F8F8;
+}
 /*.navbar {
  background: #FFFFFF;
 }*/
 
 .headshot {
+  margin-top: 50px;
   border-radius: 50%
 }
 
@@ -40,7 +61,10 @@ body {
 }
 
 .fa:hover {
-    opacity: 0.3;
+    /*opacity: 0.3;*/
+    box-shadow: 0px 0px 14px 2px grey;
+    text-decoration: none;
+    transition-duration: 0.25s;
 }
 
 .fa-twitter {
