@@ -1,0 +1,39 @@
+body { 
+ background-color: #eff8ff;
+ display: block;
+ font-family: 'Fraunces', serif;
+}
+
+h1 { 
+    margin-top: 40vh;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.nav { 
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 18px;
+    color: black;
+}
+
+.logos { 
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.logos a {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
