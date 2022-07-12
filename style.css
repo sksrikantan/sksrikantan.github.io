@@ -1,10 +1,27 @@
 body { 
- background-color: #eff8ff;
+ background-color: #8EA9B4;
  display: block;
  font-family: 'Fraunces', serif;
+ margin: 0;
 }
 
-h1 { 
+.column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+}
+
+.middle {
+    width: 60%;
+}
+
+.right {
+    width: 20%;
+}
+
+/* h1 { 
     margin-top: 34vh;
     text-align: center;
     font-size: 48px;
@@ -12,34 +29,45 @@ h1 {
     font-style: italic;
     margin-bottom: 3vh;
 
+} */
+
+.pic {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 0;
+    height: 100vh;
 }
 
-.nav { 
-    text-align: center;
+.nav {
+    padding-top: 20px; 
+    /* text-align: center; */
 }
 
 .nav a {
     text-decoration: none;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 3vw;
     font-size: 18px;
     color: black;
+    display: block;
 }
 
 .logos { 
     text-align: center;
-    margin-top: 3vh;
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
 }
 
 .logos a {
-    margin-top: 1vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-bottom: 3vh;
+    /* margin-left: 4vh; */
+    margin-left: 30px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     color: black;
+
 }
 
 .content {
