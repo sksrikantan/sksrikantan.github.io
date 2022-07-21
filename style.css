@@ -65,7 +65,7 @@ body {
     margin-top: 3vh;
 }
 
-@media only screen and (max-width: 1320px)and (min-width: 1008px) {
+@media only screen and (min-width: 1008px) {
     .logos {
         right: 5vw;
     }
@@ -75,7 +75,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1007px){
     .column {
       width: 100%;
     }
@@ -93,5 +93,15 @@ body {
         position: relative;
         text-align: center;
         margin-top: 20px;
+        margin-right: 30px;
+    }
+    .logos a {
+        margin-left: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 640px){
+    .pic {
+        height:100vw;
     }
   }
